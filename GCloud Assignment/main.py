@@ -1,8 +1,8 @@
 from flask import Flask, jsonify, render_template
 import random
 import socket
-from google.cloud.sql.connector import Connector
-import sqlalchemy
+#from google.cloud.sql.connector import Connector
+#import sqlalchemy
 gce_name = socket.gethostname()
 app = Flask(__name__)
 
